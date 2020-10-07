@@ -25,7 +25,7 @@ oneday[,] <- as.numeric(oneday[,c("Global_active_power","Global_reactive_power",
 
 
 # 1. Open png file
-png("plot1.png", width = 500, height = 500)
+png("plot1.png", width = 480, height = 480)
 # 2. Create the plot
 hist(oneday$Global_active_power,
      xlab = "Global Active Power (kilowatts)",  col = "red",main = "Global Active Power")

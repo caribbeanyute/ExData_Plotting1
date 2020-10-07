@@ -20,7 +20,7 @@ oneday[,] <- as.numeric(oneday[,c("Global_active_power","Global_reactive_power",
 
 
 # 1. Open png file
-png("plot3.png", width = 500, height =500)
+png("plot3.png", width = 480, height = 480)
 # 2. Create the plot
 plot(oneday$Sub_metering_1~oneday$DateTime,type="l",ylab = "Energy sub metering",xlab = "")
 lines(oneday$Sub_metering_2~oneday$DateTime,col="red")

@@ -23,7 +23,7 @@ oneday[,] <- as.numeric(oneday[,c("Global_active_power","Global_reactive_power",
 
 
 # 1. Open png file
-png("plot2.png", width = 500, height = 500)
+png("plot2.png", width = 480, height = 480)
 # 2. Create the plot
 plot(oneday$Global_active_power~oneday$DateTime,type="l",ylab = "Global Active Power (kilowatts)",xlab = "")
 

@@ -20,7 +20,7 @@ oneday[,] <- as.numeric(oneday[,c("Global_active_power","Global_reactive_power",
 
 
 # 1. Open png file
-png("plot4.png", width = 500, height = 500)
+png("plot4.png", width = 480, height = 480)
 # set rows ans columns
 par(mfrow=c(2,2))
 # 2. Create the plot
